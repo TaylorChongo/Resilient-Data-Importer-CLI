@@ -26,3 +26,6 @@ htmlcov/
 # Local data produced by running the tool
 *.json
 !sample_data/*.json
+
+# Log files written with --log-file
+*.log

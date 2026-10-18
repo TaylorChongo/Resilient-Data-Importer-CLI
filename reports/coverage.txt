@@ -1,0 +1,14 @@
+Name                             Stmts   Miss Branch BrPart  Cover   Missing
+----------------------------------------------------------------------------
+src\importer\__init__.py             0      0      0      0   100%
+src\importer\__main__.py             3      0      0      0   100%
+src\importer\cli.py                 47      0      4      0   100%
+src\importer\exceptions.py          17      0      0      0   100%
+src\importer\logging_config.py      19      0      4      0   100%
+src\importer\models.py               5      0      0      0   100%
+src\importer\parser.py              49      0      8      0   100%
+src\importer\repository.py          65      0     10      0   100%
+src\importer\service.py             53      0      4      0   100%
+src\importer\validator.py           27      0     12      0   100%
+----------------------------------------------------------------------------
+TOTAL                              285      0     42      0   100%
