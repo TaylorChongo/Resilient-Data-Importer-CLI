@@ -1,0 +1,11 @@
+user_id,name,email
+2001,Barbara Liskov,barbara@example.com
+2002,,edsger@example.com
+2003,Donald Knuth,donald.example.com
+20 04,Ken Thompson,ken@example.com
+2005,Frances Allen
+2006,Tim Berners-Lee,tim@example.com,extra
+2001,Barbara Again,barbara2@example.com
+
+2007,"Hopper, Grace",grace.h@example.com
+  2008  ,  Radia Perlman  ,  radia@example.com
