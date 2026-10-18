@@ -8,6 +8,9 @@ version = "0.1.0"
 description = "CLI tool that imports users from CSV into a JSON database."
 requires-python = ">=3.11"
 
+[project.scripts]
+importer = "importer.cli:main"
+
 [tool.setuptools.packages.find]
 where = ["src"]
 
