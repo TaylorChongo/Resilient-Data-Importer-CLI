@@ -32,6 +32,10 @@ class FileFormatError(ImporterError):
     """Raised when the CSV file is unreadable or its headers are wrong."""
 
 
+class StorageError(ImporterError):
+    """Raised when the JSON database cannot be read, parsed or written."""
+
+
 class ValidationError(ImporterError):
     """Raised when a CSV row contains invalid data.
 

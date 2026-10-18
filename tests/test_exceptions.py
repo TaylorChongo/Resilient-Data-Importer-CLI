@@ -9,6 +9,7 @@ from importer.exceptions import (
     FileFormatError,
     ImporterError,
     MissingFileError,
+    StorageError,
     ValidationError,
 )
 
@@ -20,6 +21,7 @@ from importer.exceptions import (
         FileFormatError("missing column: email"),
         ValidationError(row_number=4, reason="invalid email"),
         DuplicateUserError(user_id="007"),
+        StorageError("users.json is corrupted"),
     ],
 )
 def test_every_error_can_be_caught_as_importer_error(error: ImporterError) -> None:
